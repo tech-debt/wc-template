@@ -9,18 +9,19 @@
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Component Test</title>
-  <script src="./wc-template.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="wc-template.js" defer></script>
 </head>
 <body>
   <div class="wrapper">
     <h2>Testing Output:</h2>
     <hello-world></hello-world>
-      <input id="msgInput" />
+    <input id="msgInput" placeholder="Type a message..." />
   </div>
-
-
 </body>
 </html>
