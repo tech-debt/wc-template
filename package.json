@@ -1,0 +1,25 @@
+ "name": "wc-template",
+  "version": "1.0.0",
+  "description": "A simple Hello World enterprise web component with custom styling",
+  "main": "wc-template.js",
+  "scripts": {
+    "start": "npx http-server -p 8080"
+  },
+  "keywords": [
+    "web-component",
+    "custom-element",
+    "shadow-dom",
+    "vanilla-js",
+    "hello-world"
+  ],
+  "author": "Andrew Kieckhefer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tech-debt/wc-template"
+  },
+  "bugs": {
+    "url": "https://github.com/tech-debt/wc-template/issues"
+  },
+  "homepage": "https://github.com/tech-debt/wc-template#readme"
+}
